@@ -1,5 +1,5 @@
 # ==========================================================
-# TELEGRAM ALERT (FULL CONTEXT VERSION)
+# TELEGRAM ALERT
 # ==========================================================
 def send_telegram_alert_from_summary():
 
@@ -43,4 +43,5 @@ def send_telegram_alert_from_summary():
         requests.post(url, json={"chat_id": CHAT_ID, "text": text}, timeout=20)
 
     except Exception as e:
+
         print("Telegram alert failed:", str(e))
