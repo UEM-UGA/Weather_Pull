@@ -1,0 +1,12 @@
+status=✅SUCCESS
+attempt=1
+run_time=2026-02-25 08:59:04.408542
+target_date=2026-02-24 to 2026-02-24
+last_day_in_db=2026-02-23
+dates_filled=2026-02-24
+bronze_inserted=24
+bronze_skipped=0
+silver_inserted=24
+silver_skipped=0
+duration_seconds=1
+error=
