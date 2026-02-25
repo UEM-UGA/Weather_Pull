@@ -1,6 +1,4 @@
-I'll load the ability for code search to understand your repository structure, then create a comprehensive README for you.Now let me examine the main files to understand the project better:Based on the repository structure I found, here's a comprehensive README for your Weather_Pull project:
 
-```markdown name=README.md
 # Weather_Pull
 
 A Python-based weather data extraction and alerting system that fetches weather information and sends notifications via Telegram.
