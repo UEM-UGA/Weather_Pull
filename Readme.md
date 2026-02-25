@@ -15,7 +15,6 @@ Weather_Pull/
 ├── send_telegram_alert.py     # Telegram notification handler
 ├── chatid.py                  # Telegram chat ID configuration
 ├── last_run_summary.txt       # Log of last execution summary
-└── This                       # Placeholder/notes file
 ```
 
 ## Files Description
