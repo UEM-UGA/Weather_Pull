@@ -17,8 +17,8 @@ CONNECTION_STRING = (
     "Trusted_Connection=yes;"
 )
 
-BRONZE_TABLE = "weather.bronze_weather_hourly_raw"
-SILVER_TABLE = "weather.silver_weather_hourly"
+BRONZE_TABLE = "weather.bronze_hourly"
+SILVER_TABLE = "weather.silver_hourly"
 
 LAT = 33.9519
 LON = -83.3576
@@ -322,4 +322,5 @@ def main():
             send_telegram_from_summary()
 
 if __name__ == "__main__":
+
     main()
